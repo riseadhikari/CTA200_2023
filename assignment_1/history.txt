@@ -1,0 +1,62 @@
+  679  cd /mnt/scratch-lustre/
+  680  cd student12
+  681  clear
+  682  pwd
+  683  clear
+  684  mkdir CTA200_2023
+  685  cd CTA200_2023/
+  686  clear
+  687  mkdir assignment_1
+  688  vi README.md
+  689  cat README.md
+  690  find /home/murray/ *Hello
+  691  find *Hello* /home/murray/
+  692  clear
+  693  man find
+  694  clear
+  695  pwd
+  696  cd /home/murray/
+  697  dir
+  698  pwd
+  699  cp Hello_world.c /mnt/scratch-lustre/student12/CTA200_2023/assignment_1/
+  700  cp Hello_world.py /mnt/scratch-lustre/student12/CTA200_2023/assignment_1/
+  701  cd /mnt/scratch-lustre/student12/
+  702  clear
+  703  cd CTA200_2023/
+  704  cd assignment_1/
+  705  dir
+  706  mv Hello_world.c Hello_world_Adhikari.c
+  707  mv Hello_world.py Hello_world_Adhikari.py
+  708  clear
+  709  ls
+  710  ls -l
+  711  module load gcc
+  712  gcc Hello_world_Adhikari.c -o Hello_world.x
+  713  ./Hello_world.x
+  714  vi Hello_world_Adhikari.c
+  715  gcc Hello_world_Adhikari.c
+  716  ls
+  717  ./a.out
+  718  rm a.out
+  719  ls
+  720  ls -l
+  721  clear
+  722  dir
+  723  vi Hello_world_Adhikari.py
+  724  cat Hello_world_Adhikari.c
+  725  clear
+  726  gcc Hello_world_Adhikari.c > output_c.txt
+  727  cat output_c.txt
+  728  rm output_c.txt
+  729  clear
+  730  ls -l
+  731  ./a.out
+  732  ./a.out > output_c.txt
+  733  load python
+  734  module load python
+  735  python Hello_world_Adhikari.py > output_python.txt
+  736  clear
+  737  cat output_c.txt
+  738  cat output_python.txt
+  739  history
+  740  history 62 > history.txt
