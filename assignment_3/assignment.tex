@@ -57,7 +57,7 @@ Question 2 is about replicating a numerical computation done by the researcher, 
 We are given some initial values w = [$x_0, y_0, z_0$]. Along with some constants $\sigma, r$ and $b$. 
 This Question is further divided into subsection, so I will summarize them as one. \\\\
 
-The steps for solutions are as follows:\\\\
+The steps for solutions are as follows: \\\\
 1) Create A function f(initValues, time, args=(sigma,r,b)), to pass into the odeint solver from scipy library. \\\\
 2) Initialize all the given initial values such as w, sigma, r and b. And also create a time array using numpy with timeDelta = 0.01. [You can use: t = numpy.arange(0,60,0.01)]. Also, create an array N where N = t/timeDelta. the next plot uses N instead of t for plotting.\\\\
 3) Solve the differential equation using the odeint function from scipy library. [Please refer to the documentation for how to use it.]\\\\
@@ -75,7 +75,7 @@ All The Plots of Question 2 Are Embedded Below.
   \centering
   \includegraphics[width=1\linewidth]{q2_1.png}
   \caption{}
-  \label{fig:Q2_plot1.png}
+  \label{fig:q2_1.png}
 \end{figure}
 
 
@@ -83,14 +83,14 @@ All The Plots of Question 2 Are Embedded Below.
   \centering
   \includegraphics[width=1\linewidth]{q2_2.png}
   \caption{}
-  \label{fig:Q2_plot2.png}
+  \label{fig:q2_2.png}
 \end{figure}
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=1\linewidth]{q2_3.png}
   \caption{In this Last, Plot we can see that the log scale shows a closer to linear Line Pattern, which in linear scale would refer to exponential growth. So, from here we can see that even a small change in the initial value can impact the system a lot. }
-  \label{fig:q3_3.png}
+  \label{fig:q2_3.png}
 \end{figure}
 
 
